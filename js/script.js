@@ -26,9 +26,11 @@ var sconto;
 if (etaPasseggero < 18) {
     sconto = (numeroKm * 20 ) / 100;
     console.log(sconto);
-} else {
+} else if (etaPasseggero > 65) {
     sconto = (numeroKm * 40) / 100;
     console.log(sconto);
+} else {
+    molt;
 }
 
 // Arrotondamento prezzo
